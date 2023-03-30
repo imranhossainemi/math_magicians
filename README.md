@@ -154,58 +154,6 @@ You can deploy this project using:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-```sh
-  Visual Studio Code
-  Internet
-  Node.js
-```
-
-### Setup
-
-Clone this repository to your desired folder:
-
-```sh
-  cd my-folder
-  git clone https://github.com/imranhossainemi/math_magicians.git
-```
-
-### Install
-
-Install this project with:
-
-```sh
-  cd math_magicians
-  npm install
-```
-
-### Usage
-
-To run the project, execute the following command:
-
-```sh
-  npm start
-```
-
-### Run tests
-
-To run tests, run the following command:
-
-```sh
-  npm test
-```
-
-### Deployment
-
-You can deploy this project using:
-
-```sh
-  npm run build
-```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 <!-- AUTHORS -->
 
 ## 👤 Author <a name="authors"></a>
