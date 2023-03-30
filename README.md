@@ -72,6 +72,7 @@ Math magicians is a Single Page App.
 ### Key Features <a name="key-features"></a>
 
 > key features
+> key features
 
 - **[Homepage]**
     Home discribe about Math magicians Single Page App
@@ -94,6 +95,9 @@ Math magicians is a Single Page App.
 <!-- GETTING STARTED -->
 ## 💻 Getting Started <a name="getting-started"></a>
 
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
@@ -149,7 +153,6 @@ You can deploy this project using:
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- AUTHORS -->
 
