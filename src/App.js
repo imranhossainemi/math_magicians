@@ -1,3 +1,4 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Calculator from './Components/Calculator';
 import Home from './Components/Home';
