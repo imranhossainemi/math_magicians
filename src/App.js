@@ -1,30 +1,21 @@
-/* eslint-disable import/no-extraneous-dependencies */
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Calculator from './Components/Calculator';
 import Home from './Components/Home';
-import Navbar from './Components/Navbar';
 import Quote from './Components/Quote';
+import Navbar from './Components/Navbar';
 
 function App() {
   return (
-    <Router>
-      <div>
+    <>
+      <Router>
         <Navbar />
-      </div>
-      <div className="home">
-        <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route path="/Calculator">
-            <Calculator />
-          </Route>
-          <Route path="/Quote">
-            <Quote />
-          </Route>
-        </Switch>
-      </div>
-    </Router>
+        <Routes>
+          <Route path="/" exact element={<Home />} />
+          <Route path="/calculator" element={<Calculator />} />
+          <Route path="/quote" element={<Quote />} />
+        </Routes>
+      </Router>
+    </>
   );
 }
 
